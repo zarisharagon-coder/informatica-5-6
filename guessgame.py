@@ -1,8 +1,8 @@
 import random
 
 def main():
-    attempts = 3
-    guess = ""
+    attempts = 6
+    guess = 0
     name = input("Whats is ur name?").title()
     print("Hello,",name, "pick a difficulty level, 1 2 or 3.")
     dif=int(input("1-3:"))
@@ -44,6 +44,9 @@ def main():
                 print("Attempts left",attempts)
             elif guess == cpu:
                 print("U got it!",name)
+            if attempts == 0:
+                print(f"YOU LOST, MY NUMBER WAS {cpu}")
+                break
 
     else:
         print("ERORR")

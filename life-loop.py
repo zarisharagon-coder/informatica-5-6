@@ -2,9 +2,9 @@ def main():
     n = input("Hello, whats ur name?:").capitalize()
     print(f"Hello {n} this app is designed to track ur gym routine")
     gym = (input("What day is it?: (This will give you a routine):")).capitalize()
-    start=input("Type start to.... well start:").lower().strip()
     yes1 = ""
     if gym == "Monday":
+        start=input("Type start to.... well start:").lower().strip()
 
         print("Okay, on Monday we focus on Chest & Arms")
 
@@ -38,11 +38,11 @@ def main():
         else:
             print("C´mon man")
     if gym == "Tuesday":
+        start=input("Type start to.... well start:").lower().strip()
 
         print("Okay, on Tuesday we focus on Back & Core")
-        yes1 = input("Type done to proceed:").lower().strip()
-        if yes1 == "done":
-            print("First, lat pulldowns or pull-ups: 4 sets x 8–10 reps")
+
+        print("First, lat pulldowns or pull-ups: 4 sets x 8–10 reps")
         yes1 = input("Type done to proceed:").lower().strip()
         if yes1 == "done":
             print("Second, seated cable rows: 4 sets x 10 reps")
@@ -58,7 +58,7 @@ def main():
         yes1 = input("Type done to proceed:").lower().strip()
         if yes1 == "done":
              print("All set! Thank you for using our app, we would apreciatte it if you leave us a review")
-             r=float(input("Give us ur honest review from 1-5:"))
+        r=float(input("Give us ur honest review from 1-5:"))
         if r >= 4.5:
             print("Yeah, thought so")
         elif r >= 4:
@@ -70,6 +70,7 @@ def main():
         else:
             print("C´mon man")
     if gym == "Wednesday":
+        start=input("Type start to.... well start:").lower().strip()
 
         print("Okay, on Wednesday we focus on Legs & Glutes")
         yes1 = input("Type done to proceed:").lower().strip()
@@ -90,7 +91,7 @@ def main():
         yes1 = input("Type done to proceed:").lower().strip()
         if yes1 == "done":
              print("All set! Thank you for using our app, we would apreciatte it if you leave us a review")
-             r=float(input("Give us ur honest review from 1-5:"))
+        r=float(input("Give us ur honest review from 1-5:"))
         if r >= 4.5:
             print("Yeah, thought so")
         elif r >= 4:
@@ -102,6 +103,7 @@ def main():
         else:
             print("C´mon man")
     if gym == "Thursday":
+        start=input("Type start to.... well start:").lower().strip()
         print("Okay, on Thursday we focus on Shoulders & Arms")
 
         yes1 = input("Type done to proceed:").lower().strip()
@@ -122,7 +124,7 @@ def main():
         yes1 = input("Type done to proceed:").lower().strip()
         if yes1 == "done":
              print("All set! Thank you for using our app, we would apreciatte it if you leave us a review")
-             r=float(input("Give us ur honest review from 1-5:"))
+        r=float(input("Give us ur honest review from 1-5:"))
         if r >= 4.5:
             print("Yeah, thought so")
         elif r >= 4:
@@ -135,6 +137,7 @@ def main():
             print("C´mon man")
     if gym == "Friday":
         print("Okay, on Friday we focus on Back & Chest")
+        start=input("Type start to.... well start:").lower().strip()
 
         yes1 = input("Type done to proceed:").lower().strip()
         if yes1 == "done":
@@ -154,7 +157,7 @@ def main():
         yes1 = input("Type done to proceed:").lower().strip()
         if yes1 == "done":
              print("All set! Thank you for using our app, we would apreciatte it if you leave us a review")
-             r=float(input("Give us ur honest review from 1-5:"))
+        r=float(input("Give us ur honest review from 1-5:"))
         if r >= 4.5:
             print("Yeah, thought so")
         elif r >= 4:
@@ -166,6 +169,7 @@ def main():
         else:
             print("C´mon man")
     if gym == "Saturday":
+        start=input("Type start to.... well start:").lower().strip()
         print("Okay, on Saturday we focus on Lower Body & Core")
 
         yes1 = input("Type done to proceed:").lower().strip()
@@ -186,7 +190,7 @@ def main():
         yes1 = input("Type done to proceed:").lower().strip()
         if yes1 == "done":
              print("All set! Thank you for using our app, we would apreciatte it if you leave us a review")
-             r=float(input("Give us ur honest review from 1-5:"))
+        r=float(input("Give us ur honest review from 1-5:"))
         if r >= 4.5:
             print("Yeah, thought so")
         elif r >= 4:
@@ -198,6 +202,8 @@ def main():
         else:
             print("C´mon man")
     if gym == "Sunday":
+        start=input("Type start to.... well start:").lower().strip()
+
         print("Okay, on Sunday we focus on Cardio & Full Body Conditioning")
         religion=input("Before we start, whats ur religion?:").capitalize()
         if religion == "Mormon":
@@ -223,7 +229,7 @@ def main():
         yes1 = input("Type done to proceed:").lower().strip()
         if yes1 == "done":
              print("All set! Thank you for using our app, we would apreciatte it if you leave us a review")
-             r=float(input("Give us ur honest review from 1-5:"))
+        r=float(input("Give us ur honest review from 1-5:"))
         if r >= 4.5:
             print("Yeah, thought so")
         elif r >= 4:
@@ -234,6 +240,8 @@ def main():
             print("Wtv 🫩")
         else:
             print("C´mon man")
+    else:
+        print("Type an actual day")
 
 
 

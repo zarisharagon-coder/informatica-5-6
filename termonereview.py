@@ -15,9 +15,11 @@ def main():
     else:
         print("Its a weekend!")
     months = ["January", "February", "March","April","May","June","July","August","September","November","December"]
-    print(months[5])
-    print(months[6])
-    print(months[7])
+    #print(months[5])
+    #print(months[6])
+    #print(months[7])
+    month = datetime.now().month
+    print("It is", months[month-1])
 
 
 if __name__ =="__main__":

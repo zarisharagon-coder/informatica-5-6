@@ -1,26 +1,52 @@
-from datetime import datetime
-
 def main():
-    day = datetime.now().weekday()
-    days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Saturday"]
-    print(days [day])
-    if day < 4:
-        print(day)
-        print("Its a weekday")
-        remaining = 5 - day
-        print(f"{remaining} days until weekend")
-    elif day == 4:
-        print("Its a friday")
-        print("Juar a day lefr until the weekend")
-    else:
-        print("Its a weekend!")
-    months = ["January", "February", "March","April","May","June","July","August","September","November","December"]
-    #print(months[5])
-    #print(months[6])
-    #print(months[7])
-    month = datetime.now().month
-    print("It is", months[month-1])
+    #sort
+    numbers = [1, 4, 5, 7, 9, 3]
+    numbers.sort()
+    print(numbers)
+
+    items = ["Lettuce", "Tomato", "Bread", "Jam", "Mayonaise"]
+    items.sort()
+    print(items)
+
+    letters = ["b", "a", "d", "c"]
+    letters.sort(reverse=True)
+    print(letters)
+
+    words = ['banana', 'pie', 'apple']
+    sorted_words = sorted(words, key=len)
+    print(sorted_words)
 
 
-if __name__ =="__main__":
+    #append and insert
+    fruits=["Apple","Orange","Grapes"]
+    fruits.append("Banana") #adds to the list
+    print(fruits)
+    fruits1= ["Apple","Orange","Grapes"]
+    fruits1.insert(2, "banana") #inserts in a specific place of the list
+    print(fruits1)
+    #len al parecer
+
+    mylist = ["pencil", "computer", "shirt", "phone", "paper"]
+    print(len(mylist)) #counts items on the list
+
+    # min, max, sum
+    num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    ads = max(num) #highest number
+    print(ads)
+    ads2 = sum(num) #logic
+    print(ads2)
+    ads3 = min(num) #minimum
+    print(ads3)
+
+#
+    list = ["Rojo","amarillo","Verde","naranja","Azul"]
+    print("lista", list)
+
+    list.pop(1)
+    print("con pop(1):", list)
+
+    list.remove("Rojo")
+    print("con remove:",'Rojo')
+
+if __name__ == "__main__":
     main()

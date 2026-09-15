@@ -20,7 +20,7 @@ def main():
         playlist.pop(0)
         playlist.append(song_played)
         time.sleep(3)
-        repeat -= 1
+        repear 
 
 if __name__ =="__main__":
     main()

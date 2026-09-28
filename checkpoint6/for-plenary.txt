@@ -1,0 +1,6 @@
+while= a while would be like while this number is this do this, its like while you have this do that
+
+for = the for loop works by repeating the same thing a number of times
+
+Compare a while loop to a for loop.
+the while loop is like true or false, its either right or not while for works with like a number of times

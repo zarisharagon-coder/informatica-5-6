@@ -11,7 +11,7 @@ def binary_to_decimal(binary_num):
     decimal = int(binary_num,2)
     print(f"This is your number: {decimal}")
     #when we set something = to an int, when you set the ,2 python counts it as a binary number, I call my stepdad during
-    #lunch for help so i really hope i at least pass this test, weve learned avery other function here except of that, the only thing i couldnt do was the error thing
+    #lunch for help so i really hope i at least pass this test, weve learned avery other function here except of that, the only thing i couldnt do was the error thing, i really tried to do it the other way as u can see on the historial so well yeah
 
 
 

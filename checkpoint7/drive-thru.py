@@ -13,7 +13,7 @@ def welcome():
 def get_item(order):
     kitchen = ["Burger","Fries","Soda","Icecream","Cookie"]
     if 1 <= order <=5:
-        print(kitchen(order-1))
+        print(kitchen[order-1])
     else:
         print("Not in menu")
 

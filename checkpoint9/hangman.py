@@ -14,3 +14,13 @@
 # If they loose then print a womp womp
 # if they win print a "Correct!" and display a word
 #
+import random
+def main():
+    start_game("listword.txt")
+def start_game(letters):
+    with open(letters) as words:
+        listwords = words.read().splitlines()
+    word = random.choice(listwords)
+    print(word)
+if __name__ =="__main__":
+    main()

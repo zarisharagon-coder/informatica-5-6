@@ -48,7 +48,7 @@ def start_game(file):
             print(f"Incorrect letters: {" ".join(incorrect_letters)}")
             break
         if attempts == 0 and "_" in hint:
-            print("No attempts left")
+            print("No attempts left!")
 
             break
 
